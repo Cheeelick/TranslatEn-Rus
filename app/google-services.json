@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "880371941621",
+    "project_id": "readen-rus",
+    "storage_bucket": "readen-rus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880371941621:android:ec366f0f7debdfaf7e85bc",
+        "android_client_info": {
+          "package_name": "com.example.tranlsatebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880371941621-tj9qcjgbtll0g7igcshrppompct3gurd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tranlsatebook",
+            "certificate_hash": "88869e138ea212e197c2dc99334b038d9a363a2b"
+          }
+        },
+        {
+          "client_id": "880371941621-miq54efftuc2ni4fh9gv00lt9tlu5qle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLFKSvAR_lDKCnaFoIXiac3UaVT0Zujs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880371941621-miq54efftuc2ni4fh9gv00lt9tlu5qle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
