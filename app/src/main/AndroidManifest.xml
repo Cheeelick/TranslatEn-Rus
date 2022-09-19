@@ -14,7 +14,7 @@
         android:theme="@style/Theme.TranlsateBook"
         tools:targetApi="31">
         <activity
-            android:name=".Registration"
+            android:name=".activity.Registration"
             android:exported="false" />
         <activity
             android:name=".activity.Main"
