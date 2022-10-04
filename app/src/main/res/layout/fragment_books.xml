@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
     tools:context=".fragments.books">
 
     <FrameLayout
@@ -13,11 +12,12 @@
         android:layout_height="114dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:background="#ccc" >
+        android:background="#353535" >
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="76dp"
+            android:layout_marginLeft="10dp"
             android:layout_height="118dp"
             android:src="@drawable/littleprinve" />
 

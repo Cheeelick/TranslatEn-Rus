@@ -3,25 +3,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
     tools:context=".fragments.profile">
 
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-            <TextView
-                android:layout_height="match_parent"
-                android:layout_width="wrap_content"
-                android:textSize="50dp"
-                android:text="Dark mode"
-                />
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Login: test@mail.ru" />
 
-            <Switch
-                android:layout_height="match_parent"
-                android:layout_width="wrap_content"
-                />
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Password: ********" />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchTheme"
+            android:layout_width="match_parent"
+            android:text="Dark mode"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+
     </LinearLayout>
+
+
 
 </FrameLayout>

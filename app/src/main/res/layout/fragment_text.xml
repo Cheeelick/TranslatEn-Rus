@@ -4,16 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="@color/grey"
     tools:context=".fragments.FragmentText">
 
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Очень много текста очень очень много текста"
-        android:textColor="@color/black"
+        android:text="One day my plane broke down.
+                      I had to land right in the Sahara Desert.
+                      I needed to fix the plane urgently — I didn't have enough water with me, just for a few days."
         android:textIsSelectable="true"
-        android:textSize="50dp" />
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_height="match_parent" />
+
+
 </FrameLayout>

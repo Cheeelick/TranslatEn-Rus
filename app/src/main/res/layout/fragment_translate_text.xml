@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353535"
+    tools:context=".fragments.translateText">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/grey"
+        android:text="Однажды мой самолет сломался.
+                      Мне пришлось приземлиться прямо в пустыне Сахара.
+                      Мне нужно было срочно починить самолет — у меня не было с собой воды, всего на несколько дней" />
+
+</FrameLayout>
